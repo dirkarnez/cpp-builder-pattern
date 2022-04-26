@@ -8,6 +8,7 @@ project(cpp-builder-pattern)
 SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
 
 add_executable(${PROJECT_NAME}
+"include/emailbuilder.hpp"
     "src/main.cpp")
 
 # target_link_libraries(${PROJECT_NAME} 
